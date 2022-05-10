@@ -1,0 +1,378 @@
+/* *{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+  background-image: url(https://www.soroptimistinternational.org/wp-content/uploads/2020/08/AdobeStock_328261129-scaled.jpeg);
+  background-size: cover;
+  background-position: center;
+  ;
+}
+
+.navbar{
+  width: 88%;
+  margin: auto;
+  padding: 25px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+}
+
+.navbar ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0 15px;
+  margin-top: 45px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    top: 100%;
+    
+}
+.content{
+  width: 100%;
+  position: absolute;
+  top: 30%;
+}
+.left-col{
+  margin-left: 6%;
+}
+.left-col h1{
+  font-size: 80px;
+  color: #fff;
+  line-height: 110pxl;
+  float: left;
+  
+}
+
+ /* .trending{
+  background-image: url(https://www.soroptimistinternational.org/wp-content/uploads/2020/08/AdobeStock_328261129-scaled.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}  */
+
+/* .bottom{
+  background-color: #fff;
+}
+.text{
+   margin: 6%;
+}
+.text h1{
+  font-size:100px;
+  color: #000;
+  line-height: 110pxl;
+  float: left;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img{
+  float:right;
+}
+
+.benefits{ 
+  margin: 6%;
+}
+.benefits h1{
+  font-size: 80px;
+  color: #000;
+  line-height: 110pxl;
+}
+/* .showcase{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+
+}
+.showcase video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.title{
+    width: 100%;
+    height: 100%;
+    background-color:#fff;
+    font-size: 100px;
+    color: #fff;
+    mix-blend-mode: multiply;
+} */
+/* .bottom5{
+
+  background-color: #000;
+} */ 
+.icon{
+  width: 75%;
+  height: 80%;
+}
+
+.navbar{
+  width: 88%;
+  margin: auto;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  width: 15%;
+  height: 25%;
+  cursor: pointer;
+}
+.navbar ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0 15px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: rgb(138, 138, 138);
+  font-size: 20px;
+  top: 100%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+.quote{
+  font-size: xx-large;
+  margin-top: 6%;
+  margin: 6%;
+  padding: auto;
+  
+}
+.quote h1{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 2px 2px #ccc;
+  border-radius: 1px;
+}
+.poster{
+  width: 40%;
+  height: 75% auto;
+  float: right;
+  cursor: pointer;
+}
+.button{
+  margin: 6%;
+}
+.button-right{
+  background-color: rgb(96, 255, 56);
+  border-radius: 1%;
+  width: 20%;
+  height: 8%;
+  color: #000;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 150% auto;
+  border-color: rgb(96, 255, 56);
+  font-weight: 200;
+  display: block;
+  text-decoration: none;
+  top: 100%;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  float: left;
+  box-shadow: #ccc 4px 4px;
+}
+.button-left{
+  background-color: rgb(159, 223, 144);
+  border-radius: 1%;
+  width: 20%;
+  height: 8%;
+  color: #000;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 150% auto;
+  border-color: rgb(159, 223, 144);
+  font-weight: 200;
+  display: block;
+  text-decoration: none;
+  top: 100%;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  float: right;
+  margin-right: 15%;
+  box-shadow: #ccc 4px 4px;
+  
+}
+body{
+  background: aliceblue;
+  transition: 0.5s;
+}
+body.active{
+  /* background-color: #222; */
+  background-image: url(https://cdn.wallpapersafari.com/68/8/FVlYjH.png);
+  color: aliceblue;
+  text-emphasis-color: aliceblue;
+}
+#toggle{
+  position: relative;
+  float: right;
+  display: block;
+  width: 320px;
+  height: 160px;
+  border-radius: 160px;
+  background-color: white;
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: inset 0 8px 60px rgba(0, 0, 0, 0.1),
+              inset 0 8px 8px rgba(0, 0, 0, 0.1),
+              inset 0 -4px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 9%;
+}
+#toggle.active{
+  background:#222;
+  box-shadow: inset 0px 2px 60px rgba(0, 0, 0, 0.1),
+              inset 0px 2px 8px rgba(0, 0, 0, 0.1),
+              inset 0px -4px 8px rgba(0, 0, 0, 0.5);
+}
+#toggle .indicator{
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 160px;
+  height: 160px;
+  background: linear-gradient(to bottom, #444, #222);
+  border-radius: 50%;
+  transform: scale(0.9);
+  box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+              inset: 0 4px 4px rgba(255, 255,255, 0.2);
+              inset: 0 -4px 4px rgba(255, 255,255, 0.2);
+  transition: 0.5s;
+}
+#toggle.active .indicator{
+  left: 160;
+}
+.main{
+  margin-left: 6%;
+  margin-top: 6%;  
+}
+.main h1{
+  color: rgb(141, 141, 141);
+  font-size: 80px;
+}
+.main h2{
+  font-size: 30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 20;
+  margin-left: 6%;
+  display: inline;
+}
+
+/* .main img{
+  width: 200px;
+  height: 150px;
+  display: block;
+  margin-left: 45%;
+  
+} */
+.feature {
+  display:block;
+  align-items: center;
+  justify-content: center;
+}
+.h1{
+  margin-top: 20%;
+  font-size: 50px ;
+  text-align: center;
+  font-weight: 10;
+  font-family:monospace;
+  
+}
+.img1{
+  margin-left: 7%;
+  margin-top: 1%;
+  display: inline-block;
+}
+.img1 h2{
+  margin-left: 10%;
+  font-size: 25px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+}
+.img2{
+  margin:1%;
+  display: inline-block;
+  
+}
+.img2 h2{
+  margin-left: 4%;
+  font-size: 25px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  justify-content: center;
+  text-align: center;
+}
+.img3{
+  margin-left: 0%;
+  display: inline-block;
+  
+}
+.img3 h2{
+  margin-left: 4%;
+  font-size: 25px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  justify-content: center;
+  text-align: center;
+}
+.img4{
+  margin-left: 0%;
+  display: inline-block;
+  
+}
+.img4 h2{
+  margin-left: 4%;
+  font-size: 25px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  justify-content: center;
+  text-align: center;
+}
+/* .cta{
+  display: flex;
+  align-items: center;
+  color: #000;
+  background: none;
+  border: none;
+  padding: 12px 18px;
+  position: relative;
+}
+.cta:before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%)
+             translateX(calc(100% + 4px));
+  width: 45px;
+  height: 45px;
+  background: #dc143c;
+  border-radius: 50px;
+  transition: transform .5s .5s
+    cubic-beziar(0, 0, .5, 2), width
+    .25s cubic-bezier(0, 0, .5, 2);
+    z-index: -1;
+}
+.cta:hover::before{
+  width: 100%;
+  transform: translateY(-50%)
+  translateX(-18px);
+  transition: transform .5s .8s cubic-bezier(0, 0, .5, 2);
+}
+.cta:hover i {
+  transform: translateX(3px);
+} */
